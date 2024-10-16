@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #666;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+}
+
+/* Estilo de los enlaces */
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #a05134;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #a05134;
+}
+
+/* Diseño adaptable */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
